@@ -1,18 +1,48 @@
-.top {
-	height: 150px;
+html, body {
+	height: 100%;
 	width: 100%;
-	background: black;
 	margin: 0;
 }
 
+.top {
+	height: 20%;
+	width: 100%;
+	background: black;
+	margin: 0;
+
+}
+
+.center {
+	width: 80%;
+	height: 80%;
+	background: red;
+	float: left;
+}
+
+.center-top {
+	width: 100%;
+	height: 90%;
+	background: white;
+
+}
+
+.center-bottom {
+	width: 100%;
+	height: 10%;
+	background: black
+
+}
+
 .left {
-
+	height: 80%;
+	width: 10%;
+	background: grey;
+	float: left;
 }
 
-.right {
-
-}
-
-.bottom {
-	
-}
+/*.bottom {
+	height: 10%;
+	width: 80%;
+	background: black;
+	margin: 0 auto;
+}*/
